@@ -1,4 +1,5 @@
 import { ConnectWithMe } from "@/components/portfolio/ConnectWithMe";
+import { ExperienceSection } from "@/components/portfolio/ExperienceSection";
 import { HeroSection } from "@/components/portfolio/HeroSection";
 import { NavBar } from "@/components/portfolio/Navbar";
 import { Skills } from "@/components/portfolio/SkillsSection";
@@ -10,6 +11,7 @@ const Portfolio = () => {
         <NavBar />
         <HeroSection />
         <Skills />
+        <ExperienceSection />
         <ConnectWithMe />
       </div>
     </div>

@@ -6,6 +6,7 @@ export const NavBar = () => {
     <div className="flex w-full justify-between pt-6">
       <div className="flex gap-3">
         <p className="text-sm text-gray-400">Home</p>
+        <p className="text-sm text-gray-400">Experience</p>
         {/* <p className="text-sm text-gray-400">Blog</p>
         <p className="text-sm text-gray-400">Projects</p>
         <p className="text-sm text-gray-400">About</p> */}

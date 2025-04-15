@@ -14,7 +14,7 @@ const skills = [
 
 export const Skills = () => {
   return (
-    <div className="mt-6 flex justify-center flex-col items-center">
+    <div className="mt-12 flex justify-center flex-col items-center">
       <h1 className="text-gray-50 text-md font-semibold">Skills</h1>
       <div className="flex flex-wrap gap-4 mt-4 justify-center">
         {skills.map((skill, index) => (
