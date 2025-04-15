@@ -5,9 +5,9 @@ export const NavBar = () => {
   return (
     <div className="flex w-full justify-between pt-6">
       <div className="flex gap-3">
-        <p className="text-sm text-gray-400">Home</p>
+        <p className="text-sm text-gray-400 hover:cursor-pointer">Home</p>
         <p
-          className="text-sm text-gray-400"
+          className="text-sm text-gray-400 hover:cursor-pointer"
           onClick={() =>
             document.getElementById("experience")?.scrollIntoView({
               behavior: "smooth",
@@ -17,7 +17,7 @@ export const NavBar = () => {
           Experience
         </p>
         <p
-          className="text-sm text-gray-400"
+          className="text-sm text-gray-400 hover:cursor-pointer"
           onClick={() =>
             document
               .getElementById("connectWithMe")
