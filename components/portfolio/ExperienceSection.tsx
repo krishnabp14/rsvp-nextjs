@@ -4,7 +4,7 @@ const experience = [
   {
     role: "Software Engineer",
     company: "Bharatpe",
-    duration: "Jan 2023 - May 2023",
+    duration: "Dec 2023 - Nov 2024",
     points: [
       `Developed and integrated a feature for migrating the entire user base from one NBFC partner (LDC) to another
 NBFC partner (LiquiLoans).`,
@@ -21,7 +21,7 @@ merchant’s app, leveraging technologies such as React, Redux Toolkit, and Type
   {
     role: "Software Engineer",
     company: "F5 Networks",
-    duration: "Jun 2022 - Dec 2022",
+    duration: "July 2022 - Dec 2023",
     points: [
       `Spearheaded the user interface(UI) development for inline services, including L3, HTTP-Proxy, and OffBox AWAF`,
       `Revamped entire codebase by migrating from Q library to promises in JavaScript, optimizing performance and
@@ -35,7 +35,7 @@ enhancing user experience.`,
 
 export const ExperienceSection = () => {
   return (
-    <div className="px-6 text-gray-100 mt-12">
+    <div className="px-6 text-gray-100 pt-6 mt-6">
       <h1 className="text-gray-50 text-md font-semibold flex justify-center">
         Experience
       </h1>

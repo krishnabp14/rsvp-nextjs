@@ -16,7 +16,7 @@ const socialIcons = [
   },
   {
     name: "Instagram",
-    href: "https://instagram.com/your-username",
+    href: "https://www.instagram.com/krishna_vamsi_14",
     icon: InstagramSvg,
   },
 ];

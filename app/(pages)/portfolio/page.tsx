@@ -11,8 +11,12 @@ const Portfolio = () => {
         <NavBar />
         <HeroSection />
         <Skills />
-        <ExperienceSection />
-        <ConnectWithMe />
+        <div id="experience">
+          <ExperienceSection />
+        </div>
+        <div id="connectWithMe">
+          <ConnectWithMe />
+        </div>
       </div>
     </div>
   );
