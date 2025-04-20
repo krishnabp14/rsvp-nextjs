@@ -23,6 +23,17 @@ const MachineCoding = () => {
       >
         1. Multi step form with validations.
       </p>
+      <p
+        onClick={() => router.push("/machine-coding/pagination")}
+        style={{
+          marginTop: "24px",
+          fontSize: "18px",
+          cursor: "pointer",
+          textDecoration: "underline",
+        }}
+      >
+        2. Basic Pagination
+      </p>
     </div>
   );
 };
