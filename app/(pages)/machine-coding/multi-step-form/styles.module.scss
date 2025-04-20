@@ -1,0 +1,124 @@
+.multiStepForm {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+
+  .formDataViewer {
+    border: 1px solid gray;
+    padding: 24px;
+    max-width: 600px;
+    overflow-x: scroll;
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .tabItems {
+    margin-top: 40px;
+    display: flex;
+
+    .tabItem {
+      border: 1px solid gray;
+      padding: 8px;
+      cursor: pointer;
+    }
+
+    .active {
+      background-color: lightblue;
+    }
+  }
+
+  .form {
+    width: 600px;
+    border: 1px solid gray;
+    height: max-content;
+    min-height: 400px;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: space-between;
+
+    .prevNextBtn {
+      margin-top: 20px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .submitBtn {
+      margin-top: 20px;
+    }
+  }
+
+  input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+  }
+
+  textarea {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    flex-grow: 1;
+  }
+
+  button {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+}
+
+.personalDetailsForm {
+  padding: 24px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    input {
+      flex-grow: 1;
+    }
+
+    select {
+      border: 1px solid gray;
+      border-radius: 4px;
+      padding: 4px;
+    }
+  }
+}
+
+.interestsForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 8px;
+
+  .hobbiesCheckBoxes {
+    margin-left: 4px;
+  }
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .themeOptions {
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+}
