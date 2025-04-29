@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .items {
+    max-width: 600px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    .item {
+      border: 1px solid grey;
+      border-radius: 6px;
+      padding: 12px;
+    }
+
+    .selected {
+      background-color: lightblue;
+      color: white;
+    }
+
+    .correct {
+      background-color: green;
+      color: white;
+    }
+
+    .wrong {
+      background-color: red;
+      color: white;
+    }
+  }
+
+  .gameOver {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    align-items: center;
+
+    button {
+      margin-top: 12px;
+      border: 1px solid goldenrod;
+      background-color: goldenrod;
+      border-radius: 4px;
+      padding: 8px;
+      cursor: pointer;
+    }
+  }
+}

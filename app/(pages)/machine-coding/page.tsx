@@ -34,6 +34,17 @@ const MachineCoding = () => {
       >
         2. Basic Pagination
       </p>
+      <p
+        onClick={() => router.push("/machine-coding/country-capital-game")}
+        style={{
+          marginTop: "24px",
+          fontSize: "18px",
+          cursor: "pointer",
+          textDecoration: "underline",
+        }}
+      >
+        3. Country Capital Game
+      </p>
     </div>
   );
 };
