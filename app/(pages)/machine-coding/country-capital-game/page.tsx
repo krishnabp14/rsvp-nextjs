@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import styles from "./styles.module.scss";
 import _ from "lodash";
 
-export const data = {
+const data = {
   Afghanistan: "Kabul",
   Argentina: "Buenos Aires",
   Australia: "Canberra",
