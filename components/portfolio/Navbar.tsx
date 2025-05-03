@@ -31,7 +31,7 @@ export const NavBar = () => {
         <p className="text-sm text-gray-400">About</p> */}
       </div>
       <div
-        className="flex gap-2 items-center"
+        className="flex gap-2 items-center animate-pulse text-blue-300"
         onClick={() =>
           window.open(
             "https://drive.google.com/file/d/1CG1d_JwcxA1eFj9_sBHZc_Bflzs8KUpl/view?usp=sharing",
@@ -39,8 +39,8 @@ export const NavBar = () => {
           )
         }
       >
-        <p className="text-sm text-gray-400">Resume</p>
-        <CircleArrowOutUpRight className="invert" size={15} />
+        <p className="text-sm text-blue-300">Resume</p>
+        <CircleArrowOutUpRight className="" size={15} />
       </div>
     </div>
   );

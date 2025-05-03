@@ -58,7 +58,10 @@ export const ExperienceSection = () => {
           return (
             <div key={index} className="mb-10">
               <div className="absolute -left-[14px] w-6 h-6 bg-gray-800 border border-gray-600 rounded-full flex items-center justify-center">
-                <Briefcase size={12} className="text-white" />
+                <Briefcase
+                  size={12}
+                  className={`text-white ${index === 0 ? "animate-pulse" : ""}`}
+                />
               </div>
 
               <h3 className={"text-md font-semibold text-gray-200"}>
