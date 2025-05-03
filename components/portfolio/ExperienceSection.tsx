@@ -3,6 +3,19 @@ import { Briefcase } from "lucide-react";
 const experience = [
   {
     role: "Software Engineer",
+    company: "Cars24",
+    duration: "Dec 2023 - Present",
+    points: [
+      `Developed Progressive Web Apps (PWAs) for key loan journeys including Personal Loan and Loan Against Car.`,
+      `Integrated Sentry for real-time error tracking and monitoring across production environments, improving issue
+resolution times.`,
+      `Implemented CleverTap event tracking to monitor user behavior and trigger personalized engagement campaigns.`,
+      `Optimized SEO and Core Web Vitals (LCP, CLS, INP) on the Loans24 platform, leading to faster page loads and
+improved search performance.`,
+    ],
+  },
+  {
+    role: "Software Engineer",
     company: "Bharatpe",
     duration: "Dec 2023 - Nov 2024",
     points: [
