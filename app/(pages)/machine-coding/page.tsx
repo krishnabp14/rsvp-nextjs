@@ -45,6 +45,17 @@ const MachineCoding = () => {
       >
         3. Country Capital Game
       </p>
+      <p
+        onClick={() => router.push("/machine-coding/interactive-shape")}
+        style={{
+          marginTop: "24px",
+          fontSize: "18px",
+          cursor: "pointer",
+          textDecoration: "underline",
+        }}
+      >
+        4. Interactive Shape Part1
+      </p>
     </div>
   );
 };
